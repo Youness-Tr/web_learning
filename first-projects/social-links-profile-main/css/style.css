@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "myfont";
+    src: url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.container{
+    height: 630px;
+    width: 400px;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.container img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 130px;
+}
+
+.container h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.container h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.container h5{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+}
+
+.container .icons{
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    top: 30px;
+}
+
+.container p{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 7px;
+    width: 280px;
+    position: relative;
+    top: 2px;
+    left: 55px;
+    border-radius: 5px;
+}
+
+.attribution{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+}

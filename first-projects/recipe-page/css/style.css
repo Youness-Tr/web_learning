@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('assets/fonts/outfit/outfit.ttf') format('ttf');
+  }
+
+@font-face {
+    font-family: 'young';
+    src: url('assets/fonts/young/young.ttf') format('ttf');
+  }
+  
+
+body {
+    font-family: young, serif;
+    background-color:blanchedalmond;
+}
+.container {
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    height: 1450px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.omelette-img {
+    display: block;
+    height: 300px;
+    width: 550px;
+    margin:auto;
+    position: relative;
+    top : 10px;
+    left: 0px;
+    border-radius: 20px;
+}
+
+.text {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'outfit', sans-serif;
+    position: relative;
+    top : 0px;
+    left: 30px;
+    padding-right: 50px;
+    color: rgb(0, 0, 0);
+}
+.footer {
+    text-align: left;
+    font-size: 12px;
+    line-height: 2;
+    position: relative;
+    top : 0px;
+    left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+tr {
+    border-bottom: 1px solid rgb(196, 194, 194);
+}
+td{
+    color: rgb(117, 42, 7);
+    font-weight: bold;
+}
+  
+.footer table {
+    width: 500px;
+    margin: auto;
+}
+
+h1 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'young';
+    color:black;
+    position: relative;
+    top : 5px;
+    left: 30px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 20px;
+    color:rgb(117, 42, 7);
+    position: relative;
+    top : 0px;
+    left: 40px;
+}
+
+h5 {
+    text-align: left;
+    font-size: 15px;
+    color: rgb(161, 36, 113);
+    position: relative;
+    top : 10px;
+    left: 20px;
+}
+
+li {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    position: relative;
+    top : 0px;
+    left: 30px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.time {
+    background-color: rgba(247, 227, 244, 0.699);
+    height: 150px;
+    width: 550px;
+    margin: auto;
+    position: relative;
+    top : 0px;
+    left: 0px;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,103 @@
+
+body{
+    background-color:hsl(47, 88%, 63%);
+}
+
+.container{
+    text-align: left;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+.img {
+    height: px;
+    width: 350px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+
+.learning-tag{
+    background-color: hsl(47, 88%, 63%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 90px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.date{
+    color: hsl(0, 0%, 0%);
+    font-size: 13px;
+    font-family: sans-serif;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+
+.description{
+    color: hsl(0, 0%, 22%);
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    width: 350px;
+}
+
+.card-footer{
+    color: hsl(0, 0%, 0%);
+    font-size: 13px;
+    position: relative;
+    top: 55px;
+    left: 25px;
+    width: 350px;
+}
+
+.avatar{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.author{
+    color: hsl(0, 0%, 0%);
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+}
+
+.attribution{
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    font-size: 11px;
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
